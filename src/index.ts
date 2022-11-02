@@ -16,4 +16,4 @@ const app: Express = express();
 // app.use(cors())
 app.use('/api', route)
 
-app.listen(1880, () => console.log('Server run on port 1880'));
+app.listen(8000, () => console.log('Server run on port 8000'));
