@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.18.0"
+  },
   "scripts": {
-    "dev": "tsc && node ./dist/index"
+    "start": "tsc && node ./dist/index"
   },
   "keywords": [],
   "author": "",

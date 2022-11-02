@@ -12,4 +12,4 @@ dotenv_1.default.config();
 const app = (0, express_1.default)();
 // app.use(cors())
 app.use('/api', Router_1.default);
-app.listen(1880, () => console.log('Server run on port 1880'));
+app.listen(8000, () => console.log('Server run on port 8000'));
