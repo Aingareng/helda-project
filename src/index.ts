@@ -12,8 +12,9 @@ dotenv.config()
 
 // TODO: create app
 const app: Express = express();
+app.set('port', (process.env.PORT || 8888))
 
 // app.use(cors())
 app.use('/api', route)
 
-app.listen(8000, () => console.log('Server run on port 8000'));
+app.listen(app.get('port'), () => console.log(`Server run on port ${app.get('port')}`));
